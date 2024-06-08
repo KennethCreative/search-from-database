@@ -1,0 +1,24 @@
+.responsive-table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.responsive-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .responsive-table td {
+        width: calc(100% / 6);
+    }
+}
+
+@media (min-width: 1025px) {
+    .responsive-table td {
+        width: calc(100% / 6);
+    }
+}
